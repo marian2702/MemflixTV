@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Geon Expanded';
+    src: url('fonts/FONTSPRINGDEMO-GeonExpandedHeavyRegular.woff2') format('woff2'),
+        url('fonts/FONTSPRINGDEMO-GeonExpandedHeavyRegular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Geon Expanded';
+    src: url('fonts/FONTSPRINGDEMO-GeonExpandedBoldRegular.woff2') format('woff2'),
+        url('fonts/FONTSPRINGDEMO-GeonExpandedBoldRegular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.dropdown-menu,
+.navbar{
+    background-color: #000;
+}
+
+
+
+.nav-link,
+.dropdown-item {
+    color: #f1f1f1; /* Light color for text to contrast with black background */
+    font-family: 'Montserrat', sans-serif; /* Modern, clean font */
+    font-weight: 500; /* Medium weight for readability */
+    font-size: 16px; /* Well-balanced font size */
+    text-decoration: none; /* Clean look without underlines */
+    letter-spacing: 0.5px; /* Slight spacing for improved readability */
+    transition: color 0.3s ease, transform 0.3s ease, border-bottom 0.3s ease;
+    padding: 8px 0; /* Vertical padding for a balanced layout */
+    border-bottom: 2px solid transparent; /* Underline effect */
+    display: inline-block; /* Ensure padding and underline affect layout properly */
+    text-align: center; /* Center text in dropdown */
+}
+
+/* Hover, focus, and active effect with refined look */
+.nav-link:hover,
+.dropdown-item:hover,
+.nav-link:focus,
+.dropdown-item:focus,
+.nav-link:active,
+.dropdown-item:active {
+    color: #ffc107; /* Elegant red color on hover, focus, and active state */ /* Subtle lift effect */
+    border-bottom: 2px solid #ce9c09; /* Underline effect on hover, focus, and active state */
+}
+
+
+.nav-link.active,
+.dropdown-item.active,
+.nav-link:focus,
+.dropdown-item:focus {
+    color: #ffc107; /* Same color for active and open state */
+    background-color: #e7e7e7; /* Background color for active/open state */
+    border-bottom: 2px solid #ffc107; /* Underline effect */
+}
+
+/* Center text in dropdown menu */
+.dropdown-menu {
+    text-align: center; /* Center text in dropdown menu */
+}
+
+
+.logo-title{
+    font-family: "Monofett", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: red;
+}
+
+
+.form-control {
+    background-color: black;
+    color: white; /* Text color */
+    border: 1px solid #ffc107; /* Border color */
+}
+
+.form-control::placeholder {
+    color: #ffc107; /* Placeholder text color */
+}
+
+/* Styling for focus state */
+.form-control:focus {
+    background-color: black; /* Ensures background stays black */
+    color: #ffc107; /* Text color */
+    border-color: #ffc107; /* Optional: Change border color on focus for better visibility */
+    outline: none; /* Removes default focus outline */
+}
+
+.movie-hero-banner{
+    position: relative;
+    overflow: hidden;
+}
+.movie-hero-banner-body{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    z-index: 1;
+    color: #f1f1f1; /* Ensures text stands out */
+    padding: 20px;
+    box-sizing: border-box;
+}
+.title{
+    font-family: 'FONTSPRING DEMO - Geon Expanded';
+    color: #f1f1f1;
+    font-size: 4.5rem;
+    padding: 5px;
+}
+.sub-title{
+    font-family: sans-serif;
+    padding: 0px 0px;
+}
+
+.movie-hero-banner-body-two{
+    padding: 0px 30px 0px 6px;
+    text-align: start;
+}
+.description {
+    font-size: 1rem; /* Adjust font size if necessary */
+    line-height: 1.5; /* Improve line spacing for readability */
+    text-align: center;
+}
+
+.buttons-volume-container{
+    padding: 5px;
+}
+
+.buttons-volume-container {
+    position: relative;
+}
+
+#MuteVideo,
+#UnmuteVideo {
+    display: block;
+    cursor: pointer; /* Change cursor to pointer for better UX */
+}
+
+#MuteVideo {
+    position: absolute;
+    z-index: 1;
+}
+
+#UnmuteVideo {
+    display: none; /* Default to hidden */
+}
+
+#MuteVideo i,
+#UnmuteVideo i {
+    font-size: 25px !important;
+    padding: 3px;
+    color: #a3a3a3;
+}
+
+
+
+
+
+.movie-hero-banner-body-sub-title{
+    display: flex;
+}
+
+.watch-button{
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid #5c1212;
+    text-align: center;
+    width: 200px;
+    transition: 0.3s ease-in-out;
+}
+.watch-button:hover{
+    background-color: #5c1212;
+}
+.button-watch{
+    padding: 10px 0px;
+}
+.sub-watch-button{
+    background-color: transparent;
+    border: none;
+}
+.sub-watch-button a{
+    text-decoration: none;
+    color: #ffff;
+}
+.movie-section {
+    padding: 0px 70px; /* Adjust padding for the section */
+    background-color: #222121;
+}
+.movie-container{
+    background-color: #222121;
+    height: auto;
+    padding: 0px 10px;
+}
+.container-body-title{
+    font-family: sans-serif;
+    color: #ffff;
+    font-size: 35px;
+}
+.movie-container-body-title{
+    padding: 80px 60px 10px 60px;
+}
+.custom-table-movies-rows{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.card-custom-padding{
+    padding: 20px;
+}
+.card-custom{
+    max-width: 200px;
+    max-height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: none;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-custom:hover {
+    transform: scale(1.2); /* Zoom effect */
+}
+.card-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    border: none;
+}
+.carousel-section{
+    background-color: #222121;
+    padding: 20px;
+}
+.carousel-section-body-custom{
+    padding: 20px 20px;
+}
+
+.carousel-item{
+    height: 600px;
+    width: 100%;
+}
+.d-block{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+    padding: 5px;
+}
+.movie-container-sub-carousel-section{
+    height: auto;
+    padding: 30px;
+}
+.container-sub-carousel-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.carousel-section-wrap-custom{
+    
+    display: grid;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+    
+    border-radius: 10px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%;
+    width: 100%;
+}
+
+
+
+#my-video{
+    height: 700px;
+    width: auto;
+}
+
+#my-video::cue {
+    background: transparent; /* Removes the background */
+    color: white;            /* Change text color if needed */
+    font-size: 40px;         /* Adjust subtitle font size */
+}
+#customVideo::cue {
+    background: transparent; /* Removes the background */
+    color: white;            /* Change text color if needed */
+    font-size: 40px;         /* Adjust subtitle font size */
+}
+
+
+
+
+
+
+.video-section {
+    background-color: #0c0909;
+    height: auto;
+    width: 100%;
+}
+
+.video-container-custom {
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #222121;
+}
+
+.video-movie-body-section {
+    height: auto;
+    display: flex;
+    padding: 20px;
+    background-color: #222121;
+    align-items: center; /* Vertically centers content */
+}
+
+.video-movie-body-section-image {
+    height: 300px;
+    width: 190px;
+    
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.info-card {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.video-movie-body-section-text-custom {
+    padding: 10px 20px;
+}
+
+.video-movie-body-section-text {
+    padding: 20px 5px;
+    flex-grow: 1;
+    order: 2;
+}
+
+
+.video-movie-body-section-text-sub-title h2,
+.video-movie-body-section-text-sub-title-second h2 {
+    margin: 0; /* Remove default margins for h2 tags */
+    font-size: 20px;
+    color: #ffc107;
+}
+.video-movie-title{
+    font-size: 40px;
+    color: #ffc107;
+}
+.image-info{
+    display: flex;
+}
+.image-info-container p,
+.genre,
+.fas{
+    color: #ffc107;
+    margin: 0;
+    padding: 5px 0px;
+}
+.genre-tags{
+    display: flex;
+    gap: 5px;
+}
+.video-movie-body-section-text-sub-title-description p {
+    margin: 0; /* Remove default margins on the paragraph */
+    padding: 5px 0px;
+    color: #837e7e;
+}
+
+
+.video-section-vimeo{
+    background-color: #5c1212;
+}
+
+.fas{
+    padding: 2px;
+}
+.image-info{
+    display: flex;
+    justify-content: space-around;
+}
+.image-info-container{
+    display: grid;
+}
+
+
+
+#actor ,
+.episode-season-info-realease-director a{
+    cursor: pointer;
+    color: #ffc107;
+    text-decoration: none;
+}
+
+.container-section-vimeo{
+    height: auto;
+    width: 100%;
+}
+.video-container{
+    height: auto;
+    width: auto;
+    padding: 20px 0px;
+}
+.video-main-custom-size{
+    height: 700px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+#customVideo{
+    height: 100%;
+    position: relative;
+}
+#genres-container{
+    color: #ffc107;
+}
+.genres-text{
+    color: #837e7e;
+}

@@ -1,0 +1,79 @@
+@media (max-width: 768px) {
+    .movie-hero-banner-body{
+        left: -5%;
+        top: 40%;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .watch-button{
+        width: 150px;
+    }
+    .card-media-1{
+        content: url("assets/media\ phone\ card-1.webp");
+    }
+    .card-media-2{
+        content: url("assets/media\ phone\ card-2.jpg");
+    }
+    .card-media-3{
+        content: url("assets/media\ phone\ card-3.jpg");
+    }
+    .card-media-4{
+        content: url("assets/media\ phone\ card-4.jpg");
+    }
+    .card-media-5{
+        content: url("assets/media\ phone\ card-5.jpg");
+    }
+    .card-media-6{
+        content: url("assets/media\ phone\ card-6.jpg");
+    }
+    .card-media-7{
+        content: url("assets/media\ phone\ card-7.jpg");
+    }
+    .carousel-body{
+        padding: 0;
+    }
+    .sub-title{
+        font-size: 10px;
+    }
+    .movie-section {
+        padding: 0px 20px;
+    }
+    .carousel-section-body-custom{
+        padding: 0;
+    }
+    .movie-container-body-title{
+        padding: 20px 30px;
+        text-align: center;
+    }
+    .custom-table-movies-rows {
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .card-custom-padding {
+        padding: 10px;
+    }
+
+    .card-custom {
+        width: 230px;
+        height: 325px;
+    }
+
+    .video-movie-body-section{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .video-movie-title{
+        font-size: 30px;
+        color: #ffc107;
+    }
+    .video-movie-body-section-text-custom{
+        padding: 0;
+    }
+    .video-container-custom{
+        padding: 10px;
+    }
+}

@@ -1,0 +1,62 @@
+
+{
+  "moviesDatabase": [
+    {
+      "MovieID": 1,
+      "title": "The Wisdom of Trauma",
+      "description": "Mental illness, suicide, drug overdose, and autoimmune disorders are interconnected epidemics affecting 1 in 5 Americans annually, according to Dr Gabor Maté.",
+      "releaseDate": "June 8, 2021",
+      "cast": ["Russell Brand", "James Doty", "Tim Ferriss", "Gabor Maté", "Rae Maté"],
+      "director": "Maurizio Benazzo, Zaya Benazzo",
+      "genres": ["Drama", "Documentary"],
+      "rating": "8.0/10",
+      "duration": "01:27:54",
+      "image_path": "assets/movie1.jpg",
+      "LinkSource": "https://customer-y4rf9cvqyukyhwk8.cloudflarestream.com/edda1fc84c22978e398203c0bfac6fd0/iframe?poster=https%3A%2F%2Fcustomer-y4rf9cvqyukyhwk8.cloudflarestream.com%2Fedda1fc84c22978e398203c0bfac6fd0%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+    },
+    {
+      "MovieID": 2,
+      "title": "Living with Leopards 2024",
+      "description": "A nature documentary that follows two leopard cubs as they make the journey from infancy into adulthood.",
+      "releaseDate": "May 10, 2024",
+      "cast": ["Brad Bestelink", "Alex Parkinson"],
+      "director": "Alex Parkinson",
+      "genres": ["Nature Documentary", "Documentary"],
+      "rating": "7.4/10",
+      "duration": "01:11:00",
+      "image_path": "assets/movie3.jpg",
+      "LinkSource": "https://customer-y4rf9cvqyukyhwk8.cloudflarestream.com/e955b17933123d22b46f3bf90f1242bb/iframe?poster=https%3A%2F%2Fcustomer-y4rf9cvqyukyhwk8.cloudflarestream.com%2Fe955b17933123d22b46f3bf90f1242bb%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+      
+    },
+    
+    {
+      "MovieID": 3,
+      "title": "The Doomsday Cult of Antares De La Luz 2024",
+      "description": "Years after being charged with a heinous crime, former members of a Chilean cult share their haunting experiences.",
+      "releaseDate": "2024",
+      "cast": ["Valentina Acuña", "Francisco Aedo", "Orlando Alfaro"],
+      "director": "Santiago Correa",
+      "genres": ["Crime", "Documentary"],
+      "rating": "5.7/10",
+      "duration": "01:40:00",
+      "image_path": "assets/movie4.jpg",
+      "LinkSource": ""
+    },
+    {
+      
+        "MovieID": 4,
+        "title": "Piranha 3D 2010",
+        "description": "After a sudden underwater tremor sets free scores of the prehistoric man-eating fish, an unlikely group of strangers must band together to stop themselves from becoming fish food for the area's new razor-toothed residents.",
+        "releaseDate": "October 14, 2010",
+        "cast": ["Elizabeth Shue", "Jerry O'Connell", "Richard Dreyfuss"],
+        "director": "Alexandre Aja",
+        "genres": ["Comedy", "Horror"],
+        "rating": "5.5/10",
+        "duration": "01:28:00",
+        "image_path": "assets/movie5.jpg",
+        "LinkSource": ""
+      
+    }
+  ]
+}
+

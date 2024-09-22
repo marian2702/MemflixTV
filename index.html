@@ -1,0 +1,305 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link href="https://vjs.zencdn.net/7.14.3/video-js.css" rel="stylesheet" />
+    <script src="https://vjs.zencdn.net/7.14.3/video.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title> Memflix Movies & Series</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <div class="logo-box" style="max-height: 100%; overflow: hidden;">
+              <img src="assets/Logo.png" alt="" style="max-width: 140px; height: auto; object-fit: contain;">
+            </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trending Now</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Top Rated</a>
+              </li>
+              
+
+               <!-- Moves Dropmenu -->
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Movies
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Adventure</a></li>
+                  <li><a class="dropdown-item" href="#">Comedy</a></li>
+                  <li><a class="dropdown-item" href="#">Crime</a></li>
+                  <li><a class="dropdown-item" href="#">Documentary</a></li>
+                  <li><a class="dropdown-item" href="#">Family</a></li>
+                  <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                  <li><a class="dropdown-item" href="#">Anime</a></li>
+                  <li><a class="dropdown-item" href="#">Horror</a></li>
+                  <li><a class="dropdown-item" href="#">History</a></li>
+                  <li><a class="dropdown-item" href="#">SF</a></li>
+                  <li><a class="dropdown-item" href="#">Sport</a></li>
+                </ul>
+              </li>
+
+                <!-- Series  Dropmenu -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Series
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Adventure</a></li>
+                    <li><a class="dropdown-item" href="#">Comedy</a></li>
+                    <li><a class="dropdown-item" href="#">Crime</a></li>
+                    <li><a class="dropdown-item" href="#">Documentary</a></li>
+                    <li><a class="dropdown-item" href="#">Family</a></li>
+                    <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                    <li><a class="dropdown-item" href="#">Anime</a></li>
+                    <li><a class="dropdown-item" href="#">Horror</a></li>
+                    <li><a class="dropdown-item" href="#">History</a></li>
+                    <li><a class="dropdown-item" href="#">SF</a></li>
+                    <li><a class="dropdown-item" href="#">Sport</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="custom-search d-flex">
+                <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="btn btn-outline-secondary me-3" href="#">Help</a>
+                      </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search.." aria-label="Search">
+                    <button class="btn btn-outline-danger" type="submit">Search</button>
+                  </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+      <section class="movie-hero-banner">
+        <div class="container-fluid p-0">
+
+          <div class="movie-hero-banner-body">
+            <div class="movie-hero-banner-body-title">
+              <h1>
+                <span class="title">
+                  Game Of Thrones
+                </span>
+              </h1>
+            </div>
+
+            <div class="movie-hero-banner-body-two">
+
+              <div class="movie-hero-banner-body-sub-title">
+                <h5>
+                  <span class="sub-title">
+                    Season 06, Episode 09 - Battle Of The Bastards
+                  </span>
+                </h5>
+              </div>
+  
+              <div class="movie-hero-banner-body-sub-title">
+                <h5>
+                  <span class="sub-title description">
+                    As the Starks prepare to fight, Davos loses something dear. Ramsay plays a game. Daenerys faces a choice.
+                  </span>
+                </h5>
+              </div>
+
+              <div class="movie-hero-banner-body-sub-title button-watch">
+                <div class="watch-button">
+                  <button class="sub-watch-button">
+                    <a href="test.html">WATCH NOW</a>
+                  </button>
+                </div>
+
+                <div class="buttons-volume-container">
+                  <div class="volume-container">
+
+                    <div class="mute-icon"  id="MuteVideo">
+                      <i class="fa-solid fa-volume-xmark"></i>
+                    </div>
+
+                    <div class="unmute-icon" id="UnmuteVideo" >
+                      <i class="fa-solid fa-volume-high"></i>
+                    </div>
+
+
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+            <!-- Video Banner -->
+            <div class="video-banner position-relative">
+              <div class="video-banner">
+                <video id="my-video"
+              class="video-js w-100"
+              autoplay
+              muted
+              loop
+              playsinline
+              style="width: 100%; object-fit: cover;">
+              <source src="https://customer-y4rf9cvqyukyhwk8.cloudflarestream.com/f8619acbc95ad80055f77943f1d469e7/manifest/video.m3u8" type="application/x-mpegURL">
+          </video>
+
+          
+          
+
+              </div>
+          </div>
+            
+            
+        </div>
+    </section>
+    
+
+     
+    <section class="movie-section">
+      <div class="movie-container">
+
+
+        <div class="movie-container-body-title">
+          <h3 class="container-body-title">
+            Movies
+          </h3>
+        </div>
+
+        <div class="custom-table-movies-rows" id="movie-cards">
+          <div class="card-custom-padding" id="movie-card">
+            <div class="card-custom">
+              <img src="" class="card-image">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+        
+    </section>
+   
+      <section class="carousel-section">
+
+       <div class="carousel-section-wrap-custom">
+
+        <div class="carousel-section-body-custom">
+          <div class="carousel-body">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2000">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="assets/carousel-background-1.jpg" class="d-block w-100 card-media-1" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                      <img src="assets/carousel-background-2.jpg" class="d-block w-100 card-media-2" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                      <img src="assets/carousel-background-3.jpg" class="d-block w-100 card-media-3" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/carousel-background-4.jpg" class="d-block w-100 card-media-4" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/carousel-background-5.jpg" class="d-block w-100 card-media-5" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/carousel-background-6.webp" class="d-block w-100 card-media-6" alt="...">
+            </div>
+
+            <div class="carousel-item">
+              <img src="assets/carousel-background-7.jpg" class="d-block w-100 card-media-7" alt="...">
+          </div>
+              </div>
+          </div>
+          </div>
+        </div>
+        
+
+
+        <div class="movie-container-sub-carousel-section">
+          
+          <div class="movie-container container-sub-carousel-section">
+
+            <div class="card-custom-padding">
+              <div class="card-custom">
+                <img src="assets/media phone card-1.webp" class="card-image">
+              </div>
+            </div>
+
+            <div class="card-custom-padding">
+              <div class="card-custom">
+                <img src="assets/media phone card-2.jpg" class="card-image">
+              </div>
+            </div>
+
+            <div class="card-custom-padding">
+              <div class="card-custom">
+                <img src="assets/media phone card-3.jpg" class="card-image">
+              </div>
+            </div>
+
+            <div class="card-custom-padding">
+              <div class="card-custom">
+                <img src="assets/media phone card-4.jpg" class="card-image">
+              </div>
+            </div>
+
+            <div class="card-custom-padding">
+              <div class="card-custom">
+                <img src="assets/media phone card-5.jpg" class="card-image">
+              </div>
+            </div>
+
+            <div class="card-custom-padding">
+              <div class="card-custom">
+                <img src="assets/media phone card-6.jpg" class="card-image">
+              </div>
+            </div>
+
+            <div class="card-custom-padding">
+              <div class="card-custom">
+                <img src="assets/media phone card-7.jpg" class="card-image">
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+       </div>
+
+      </section>
+      <script src="loadVideo.js"></script>
+      <script src="fetch.js"></script>
+      <script src="loadclouflarevideo.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/videojs-hls-quality-selector"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
