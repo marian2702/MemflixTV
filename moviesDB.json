@@ -27,23 +27,9 @@
       "LinkSource": "https://customer-y4rf9cvqyukyhwk8.cloudflarestream.com/e955b17933123d22b46f3bf90f1242bb/iframe?poster=https%3A%2F%2Fcustomer-y4rf9cvqyukyhwk8.cloudflarestream.com%2Fe955b17933123d22b46f3bf90f1242bb%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
       
     },
-    
-    {
-      "MovieID": 3,
-      "title": "The Doomsday Cult of Antares De La Luz 2024",
-      "description": "Years after being charged with a heinous crime, former members of a Chilean cult share their haunting experiences.",
-      "releaseDate": "2024",
-      "cast": ["Valentina Acuña", "Francisco Aedo", "Orlando Alfaro"],
-      "director": "Santiago Correa",
-      "genres": ["Crime", "Documentary"],
-      "rating": "5.7/10",
-      "duration": "01:40:00",
-      "image_path": "assets/movie4.jpg",
-      "LinkSource": ""
-    },
     {
       
-        "MovieID": 4,
+        "MovieID": 3,
         "title": "Before Sunset",
         "description": "Nine years after Jesse and Celine first met, they encounter each other again on the French leg of Jesse's book tour.",
         "releaseDate": "October 14, 2010",
