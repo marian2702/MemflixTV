@@ -9,6 +9,9 @@
     .watch-button{
         width: 150px;
     }
+    .video-main-custom-size{
+        height: auto;
+    }
     .card-media-1{
         content: url("assets/media\ phone\ card-1.webp");
     }
