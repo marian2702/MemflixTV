@@ -1,4 +1,3 @@
-
 {
   "moviesDatabase": [
     {
@@ -45,18 +44,17 @@
     {
       
         "MovieID": 4,
-        "title": "Piranha 3D 2010",
-        "description": "After a sudden underwater tremor sets free scores of the prehistoric man-eating fish, an unlikely group of strangers must band together to stop themselves from becoming fish food for the area's new razor-toothed residents.",
+        "title": "Before Sunset",
+        "description": "Nine years after Jesse and Celine first met, they encounter each other again on the French leg of Jesse's book tour.",
         "releaseDate": "October 14, 2010",
-        "cast": ["Elizabeth Shue", "Jerry O'Connell", "Richard Dreyfuss"],
-        "director": "Alexandre Aja",
-        "genres": ["Comedy", "Horror"],
-        "rating": "5.5/10",
-        "duration": "01:28:00",
-        "image_path": "assets/movie5.jpg",
-        "LinkSource": "https://customer-y4rf9cvqyukyhwk8.cloudflarestream.com/8cb0ec18f86a8b71573f6707496b4e83/iframe?poster=https%3A%2F%2Fcustomer-y4rf9cvqyukyhwk8.cloudflarestream.com%2F8cb0ec18f86a8b71573f6707496b4e83%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+        "cast": ["Ethan Hawke", "Julie Delpy", "Vernon Dobtcheff"],
+        "director": "Richard Linklater",
+        "genres": ["Romance", "Drama"],
+        "rating": "8.1/10",
+        "duration": "01:20:00",
+        "image_path": "assets/movie6.jpg",
+        "LinkSource": "https://customer-y4rf9cvqyukyhwk8.cloudflarestream.com/26ff959cb74c293057b53ff6f8c755fb/iframe?poster=https%3A%2F%2Fcustomer-y4rf9cvqyukyhwk8.cloudflarestream.com%2F26ff959cb74c293057b53ff6f8c755fb%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
       
     }
   ]
 }
-
