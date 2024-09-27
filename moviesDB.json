@@ -41,6 +41,21 @@
         "image_path": "assets/movie6.jpg",
         "LinkSource": "https://customer-y4rf9cvqyukyhwk8.cloudflarestream.com/26ff959cb74c293057b53ff6f8c755fb/iframe?poster=https%3A%2F%2Fcustomer-y4rf9cvqyukyhwk8.cloudflarestream.com%2F26ff959cb74c293057b53ff6f8c755fb%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
       
-    }
+    },
+    {
+      
+      "MovieID": 4,
+      "title": "Constantine",
+      "description": "Detective Angela approaches Constantine, a demon hunter, to help her investigate her twin sister's mysterious death. As he digs deeper, he realizes that demons are trying to enter the human world.",
+      "releaseDate": "March 9, 1995",
+      "cast": ["Keanu Reeves", "Rachel Weisz", "Djimon Hounsou"],
+      "director": "Francis Lawrence",
+      "genres": ["Action", "Fantasy","Drama","Mystery","Superhero"],
+      "rating": "7.0/10",
+      "duration": "02:01:00",
+      "image_path": "assets/movie8",
+      "LinkSource": "https://customer-y4rf9cvqyukyhwk8.cloudflarestream.com/38781fcfd95e11c4dee1e1f4ac57e90a/iframe?poster=https%3A%2F%2Fcustomer-y4rf9cvqyukyhwk8.cloudflarestream.com%2F38781fcfd95e11c4dee1e1f4ac57e90a%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+    
+  }
   ]
 }
